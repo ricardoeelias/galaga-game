@@ -1,0 +1,19 @@
+El juego ha sido creado con los siguientes prompts desde Visual Studio Code, usando, en teoría Open Router para poder usar distintos modelos sin 
+consumir tokens de IAs de pago.
+
+
+
+Comandos para crear juego de Galaga desde Visual Studio Code
+
+PRIMER PROMPT PARA EL JUEGO DE GALAGA:
+Crea una aplicación de video juego que sea idéntica al juego Galaga de Arcade que se jugaba en maquinitas en la década de los 80's. Utiliza las imágenes de la carpeta images que ya se encuentra en esta carpeta para representar las naves y usa las slkills que ya están disponibles en el folder node_modules. Además, al inicio del juego muetra mi nombre: "Ricardo Ernesto Elías" y una descripción que indique que "soy Ingeniero en Ciencias de la Computación, apasionado por la música de los 70's y 80's y por el aprendizaje de nuevas tecnologías". Ese mensaje debe aparecer justo al iniciar el juego con el mismo efecto de las letras de la película la Guerra de Las Galaxias cuando inicia. Luego, deberá desaparecer e iniciar el juego al presionar la tecla ENTER. La nave del jugador debe controlarse con las teclas de cursor (derecha e izquierda), los disparos se deben realizar con la tecla ENTER, lo cual debe indicarse al inicio. Intenta usar la misma música del juego original para iniciar el juego y durante esté el juego en acción.
+
+SEGUNDO PROMPT PARA EL JUEGO DE GALAGA:
+Haz las siguientes correcciones: 1) La nave del jugador no está disparando aún. Debe hacerlo con la tecla <BARRA ESPACIADORA>, indicalo al inicio del juego, como lo indicas para iniciar un nuevo juego con la tecla <ENTER>. 2) Permite interrumpir el juego, presionando una vez la tecla ESC y luego, volver a presionar ESC para confirmar. La primera vez que se presiona ESC, solo deja pausado y si presiona <ENTER> en lugar de la tecla ESC reanudas el juego
+
+TERCER PROMPT:
+Haz una nueva corrección. La nave del jugador se mantiene disparando todo el tiempo. Debes modificar para que únicamente dispare cuando el jugador presione la tecla de barra espaciadora. Indica también esto en en mensaje donde se indica que la tecla <ENTER> se usar para iniciar el juego y la tecla ESC para deternerlo y salir
+
+
+CUARTO PROMPT:
+Revisa nuevamente para corregir que ahora ya no se mueve la nave con lateclas de  cursor izquierda y derecha. Mantén todo lo demás igual, únicamente corrige lo de las teclas cursoras para que el jugador pueda mover la nave y así esquivar los disparos. Revisa también que únicamente se lance un disparo de la nave del jugador al presionar la tecla de la barra espaciadora, sin alterar el comportamiento del resto de teclas que intervienen en el desarrollo del juego
