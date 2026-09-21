@@ -1,0 +1,5 @@
+[JUEGO GALAGA]
+[El juego ha sido realizado para juegar el juego de Arcade clásico como parte de una tarea de Kódigo Academy]
+[Para iniciar el juego se presiona la tecla <ENTER>.]
+[Para pausar o terminar el juego se presiona la tecla <ESC>.]
+[Para disparar se usa la tecla <SPACE BAR> o <BARRA ESPACIADORA>.]
