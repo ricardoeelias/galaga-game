@@ -1,0 +1,17 @@
+Skills instaladas en el proyecto para el video juego de tarea de Galaga Arcade:
+
+npx skills add https://github.com/shubhamsaboo/awesome-llm-apps --skill fullstack-developer
+
+npx skills add https://github.com/openai/skills --skill develop-web-game
+
+npx skills add https://github.com/wshobson/agents --skill modern-javascript-patterns
+
+npx skills add https://github.com/affaan-m/ecc --skill python-patterns
+
+npx skills add https://github.com/angular/angular --skill angular-developer
+
+npx skills add https://github.com/jezweb/claude-skills --skill react-patterns
+
+npx skills add https://github.com/heygen-com/hyperframes --skill css-animations
+
+
