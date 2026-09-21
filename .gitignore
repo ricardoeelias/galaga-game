@@ -1,0 +1,36 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+package.json
+pnpm-lock.yaml
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration and secrets
+.claude/
+readme.txt
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*credentials*
+*apikey*
+*api-key*
+*token*
+*password*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editor, OS, and build artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+dist/
+build/
+coverage/

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GALAGA // Ricardo Ernesto Elías</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="arcade-shell">
+    <div class="cabinet-label"><span>1981 // NAMCO-STYLE COMMAND DECK</span><span>SECTOR 07</span></div>
+    <section class="screen-frame" aria-label="Juego arcade Galaga">
+      <canvas id="game" width="900" height="700"></canvas>
+      <div class="scanlines"></div>
+      <div class="screen-glow"></div>
+      <div id="title-screen" class="title-screen">
+        <img class="title-logo" src="images/logo-galaga-initial-game.png" alt="Galaga">
+        <div class="crawl-wrap">
+          <div class="crawl">
+            <p class="crawl-kicker">REGISTRO DEL PILOTO</p>
+            <h1>Ricardo Ernesto Elías</h1>
+            <p>Soy Ingeniero en Ciencias de la Computación,<br>apasionado por la música de los 70's y 80's<br>y por el aprendizaje de nuevas tecnologías.</p>
+            <p class="mission">Una nueva escuadra alienígena invade el sector.<br>Defiende la galaxia, piloto.</p>
+          </div>
+        </div>
+        <div class="start-prompt"><span class="blink">[ ENTER ]</span> INICIAR MISIÓN <span>[ SPACE ]</span> DISPARAR <span>[ ESC ]</span> DETENER Y SALIR</div>
+      </div>
+      <div id="pause-screen" class="pause-screen hidden">
+        <p class="pause-label">JUEGO EN PAUSA</p>
+        <strong>ESC</strong>
+        <span>CONFIRMAR SALIDA</span>
+        <strong>ENTER</strong>
+        <span>REANUDAR MISIÓN</span>
+      </div>
+      <div id="game-over" class="game-over hidden">
+        <p class="over-label">FIN DE LA MISIÓN</p>
+        <strong id="final-score">000000</strong>
+        <span>PRESIONA ENTER PARA REINTENTAR</span>
+      </div>
+    </section>
+    <div class="controls-strip"><span>◀ ▶ MOVER</span><span>SPACE DISPARAR</span><span>ESC PAUSA / SALIR</span><span>HIGH SCORE <b id="high-score">000000</b></span></div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
